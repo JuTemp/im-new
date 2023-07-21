@@ -1,7 +1,8 @@
 import React from 'react';
 import IMLogo from './icons/im-logo.png';
+// Cannot find module './icons/im-logo.png' or its corresponding type declarations. ts(2307)
 import './App.css';
-import MyHeader from './components';
+import MyHeader from './components/Header';
 
 const App = () => {
 
