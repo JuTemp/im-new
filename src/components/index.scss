@@ -1,0 +1,36 @@
+// Variables Definition
+$Header_height: 6vh;
+$Header_img_height: 4vh;
+
+*  {
+    user-select: none;
+}
+
+#Header {
+
+    & {
+        height: $Header_height;
+        width: 100vw;
+        background-color: azure;
+        display: flex;
+        flex-direction: row;
+    }
+
+    & > img {
+        height: $Header_img_height;
+        margin: 1vh;
+        object-fit: contain;
+        flex: 0 0 auto;
+    }
+
+    & > p {
+        height: auto;
+        margin: 1vh;
+        flex: 1 1 auto;
+        font-size: large;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-end;
+    }
+}
