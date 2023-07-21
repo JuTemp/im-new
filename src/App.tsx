@@ -1,15 +1,14 @@
 import React from 'react';
-import IMLogo from './icons/im-logo.png';
-// Cannot find module './icons/im-logo.png' or its corresponding type declarations. ts(2307)
 import './App.css';
 import MyHeader from './components/Header';
+import { constant } from './components/constants.js';
 
 const App = () => {
 
   return (
     <>
-      <MyHeader logo={IMLogo} color='#ffc0cb' >
-        <p>This is JuTemp's Instant Messaging Application.</p>
+      <MyHeader logo={constant.Headers.logo} color='#ffc0cb' >
+        <p>{constant.Headers.p}</p>
       </MyHeader>
     </>
   )
