@@ -4,6 +4,7 @@ $Header_img_height: 4vh;
 
 *  {
     user-select: none;
+    -webkit-user-select: none;
 }
 
 #Header {
@@ -23,14 +24,15 @@ $Header_img_height: 4vh;
         flex: 0 0 auto;
     }
 
-    & > p {
+    & > span {
         height: auto;
         margin: 1vh;
         flex: 1 1 auto;
-        font-size: large;
+        font-size: 1.5rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: flex-end;
+        align-content: center;
+        flex-direction: row;
     }
 }
