@@ -22,7 +22,7 @@ export const createWs = (onConnect: () => void, onEnter: (data: any) => void,
         onLeave(data)
     })
 
-    socket.on('message', (data) => {
+    socket.on('message', (data: any) => {
         onMessage(data)
     })
 

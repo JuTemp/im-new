@@ -21,7 +21,6 @@ const MyContent = (props: React.PropsWithChildren<{
             {props.children}
             {props.messages?.map((message, index) => (
                 <Card className="message" key={index}>
-                    {/* Why not <Fragment classname="" /> ? */}
                     <span className="name">{message.name}</span>
                     <span className="time">{message.time.toLocaleString("en-US", { hour12: false })}</span>
                     <MyCopyToClipboard text={message.text}

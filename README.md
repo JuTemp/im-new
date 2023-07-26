@@ -12,4 +12,11 @@ I updated the code in the following days:
 - 2023July22 
   - Update &lt;Content /&gt; &lt;Footer /&gt;
 - 2023July23
-  - Update Websocket &lt;Socket.io&gt;
+  - Update Websocket &lt;Socket.io&gt; ```Not Finished```
+- 2023July24
+  - Update &lt;RightSider /&gt;
+- 2023July25
+  - Update &lt;RightSider /&gt; in &lt;App /&gt;
+  - Update Websocket module
+  - Update Redux reducer
+

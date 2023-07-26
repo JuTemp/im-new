@@ -1,0 +1,53 @@
+// Variables Definitions
+$RightSiderBackgroundColor: #e0ffff;
+$FontFamilySystemUI:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+#RightSider {
+    & {
+        $width: 20vw;
+        height: calc(94vh - 226px);
+        overflow: hidden scroll;
+        background-color: transparent;
+        border-radius: 1vh;
+
+        // !important for antd style
+        flex: 0 0 $width !important;
+        max-width: $width !important;
+        min-width: $width !important;
+        width: $width !important;
+    }
+
+    & .ant-card-body {
+        padding: 12px;
+    }
+}
+
+.user {
+    & {
+        background-color: $RightSiderBackgroundColor;
+        margin: 1vh 0vh;
+    }
+
+    & .username {
+        font-family: $FontFamilySystemUI;
+        font-size: 1rem;
+        margin: 1vmin;
+    }
+
+    & .description {
+        font-family: $FontFamilySystemUI;
+        font-size: 1rem;
+        margin: 1vmin;
+    }
+}

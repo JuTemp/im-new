@@ -12,13 +12,13 @@ $FontFamilySystemUI:
     "Helvetica Neue",
     sans-serif;
 $LightBackgroundColor: #ffffe0;
-$CopyTextBackgroundColor: #f5deb3;
+$CopyTextBackgroundColor: #ffefd5;
 
 #Content {
 
     & {
         height: calc( 94vh - 226px );
-        width: 100vw;
+        width: 80vw;
         overflow: hidden scroll;
     }
 
@@ -27,7 +27,8 @@ $CopyTextBackgroundColor: #f5deb3;
 .message {
 
     & {
-        margin: 1vh;
+        margin: 1vh 0vh;
+        border-radius: 1vh;
         background-color: $LightBackgroundColor;
     }
 
@@ -49,9 +50,10 @@ $CopyTextBackgroundColor: #f5deb3;
 
     & .text {
         margin: 0.5vw;
-        margin-inline-start: 2vw;
+        margin-inline-start: 2vmin;
         font-size: 1.5rem;
         font-family: $FontFamilySystemUI;
+        background: $CopyTextBackgroundColor;
     }
 }
 
