@@ -17,7 +17,7 @@ const InitMessagesStatus: MessagesStatusType = {
     }
 }
 
-const messagesSlice: Slice<MessagesStatusType, {
+export const messagesSlice: Slice<MessagesStatusType, {
     AddMessage: (messagesStatus: MessagesStatusType, action: PayloadAction<MessageType>) => void;
 }, "messages"> = createSlice({
     name: 'messages',

@@ -17,7 +17,7 @@ const InitUsersStatus: UsersStatusType = {
     }
 }
 
-const UsersSlice = createSlice({
+export const UsersSlice = createSlice({
     name: 'users',
     initialState: InitUsersStatus,
     reducers: {

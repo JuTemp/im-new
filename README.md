@@ -19,4 +19,6 @@ I updated the code in the following days:
   - Update &lt;RightSider /&gt; in &lt;App /&gt;
   - Update Websocket module
   - Update Redux reducer
-
+- 2023July29
+  - Update Redux RootReducer
+  - Update Middleware ```Failed to study```
